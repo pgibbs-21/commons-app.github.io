@@ -62,7 +62,7 @@ function toggleClass() {
   // toggle body class selector
   $('body').toggleClass('light-mode dark-mode')
 
-  body.classList.contains("dark-mode")
-    ? saveColorMode("dark-mode")
-    : saveColorMode("light-mode");
+  body.classList.contains("light-mode")
+    ? saveColorMode("light-mode")
+    : saveColorMode("dark-mode");
 }
